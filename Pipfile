@@ -9,6 +9,7 @@ verify_ssl = true
 
 pygame = "*"
 easygui = "*"
+pyctags = "*"
 
 
 [dev-packages]

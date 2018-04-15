@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "ab889782eca3fbfb06b4f99864c246a29fd417c200876b540ff1da755cb3e203"
+            "sha256": "ac9401664a168030f68baf9dab2d709ff23115074297e621fe99e57546b5dca7"
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
@@ -9,9 +9,9 @@
             "os_name": "posix",
             "platform_machine": "x86_64",
             "platform_python_implementation": "CPython",
-            "platform_release": "4.13.0-37-generic",
+            "platform_release": "4.13.0-38-generic",
             "platform_system": "Linux",
-            "platform_version": "#42~16.04.1-Ubuntu SMP Wed Mar 7 16:03:28 UTC 2018",
+            "platform_version": "#43~16.04.1-Ubuntu SMP Wed Mar 14 17:48:43 UTC 2018",
             "python_full_version": "3.5.2",
             "python_version": "3.5",
             "sys_platform": "linux"
@@ -35,6 +35,13 @@
                 "sha256:dbc89afbb1aca83830ea4af568eb2491654e16b2706a14d040757fdf1fafbbfe"
             ],
             "version": "==0.98.1"
+        },
+        "pyctags": {
+            "hashes": [
+                "sha256:1cab28205c14f2051e676db385049db47845ac5d422824591d534d99ebe1106f",
+                "sha256:7e47ec8d68e66c151fe39d300ecc50001a8c8f0efb289b89d92d576a1d511fbb"
+            ],
+            "version": "==0.5.0"
         },
         "pygame": {
             "hashes": [
