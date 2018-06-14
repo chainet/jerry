@@ -31,6 +31,4 @@ z = 0
 z = y
 y = x
 x = z
-str(x)
-str(y)
 print('x = ' + x, '   y = ' + y)
