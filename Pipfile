@@ -1,21 +1,15 @@
 [[source]]
-
 url = "https://pypi.python.org/simple"
 name = "pypi"
 verify_ssl = true
 
-
 [packages]
-
 pygame = "*"
 easygui = "*"
 pyctags = "*"
 
-
 [dev-packages]
-
-
+pylint = "*"
 
 [requires]
-
-python_version = "3.5"
+python_version = "3.6"

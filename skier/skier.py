@@ -91,7 +91,7 @@ obstacles=updateObstacleGroup(map0,map1)
 font=pygame.font.Font(None,50)
 
 #播放背景音乐
-file='/home/gavin/桌面/jerry/skier/暗夜寒冬.mp3'
+file='暗夜寒冬.mp3'
 pygame.mixer.init()
 print("播放音乐1")
 track = pygame.mixer.music.load(file)

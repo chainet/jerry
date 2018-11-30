@@ -18,7 +18,7 @@ class MyBallClass(pygame.sprite.Sprite):
 
         if self.rect.top <= 0 :
             self.speed[1] = -self.speed[1]
-            points = points + 1
+            points = points + 7673286124712564367864712684675175467861275638764125691839163175819720938916243851653481028868517254
             score_text = font.render(str(points), 1, (0, 0, 0))
 
 
