@@ -36,25 +36,28 @@ def input_XY(who):
 
 
 def judge_win(who:int):
-    win = False
+    win = 0
     # 横
     for i in range(3):
         # print("==", i)
         if square[i][0] == who and square[i][1] == who and square[i][2] == who:
-            win = True
+            win = 1
 
     # 竖
     for i in range(3):
         # print("--",square[:2][i])
         if square[0][i] == who and square[1][i] == who and square[2][i] == who:
-            win = True
+            win = 1
 
     # 斜
     if (square[0][0] == who and square[1][1] == who and square[2][2] == who) \
         or (square[2][0] == who and square[1][1] == who and square[0][2] == who):
-        win = True
-
-    return win
+        win = 1
+    for line in square:
+        for one in line:
+            if one == 0:
+                return win
+    print("平局")
+    return 2
 
 square = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
-

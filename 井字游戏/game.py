@@ -85,13 +85,17 @@ while True:
                     draw_falk((x*120+160,y*120+160))
                     who = "O"
             logic.print_square()
-            if logic.judge_win(1):
+            if logic.judge_win(1)==1:
                 print("Player O, 你赢了！")
-                draw_text("Player O, 你赢了！", (100, 460))
+                draw_text("Player O, 你赢了！", (100, 480))
                 pygame.quit()
-            if logic.judge_win(2):
+            if logic.judge_win(2)==1:
                 print("Player X, 你赢了！")
-                draw_text("Player X, 你赢了！", (100, 460))
+                draw_text("Player X, 你赢了！", (100, 480))
+                pygame.quit()
+            elif logic.judge_win(1) ==2:
+                print("[平局]！")
+                draw_text("平局", (100, 480))
                 pygame.quit()
             # draw_text()
                         
